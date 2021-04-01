@@ -42,7 +42,7 @@ def load_image(image_url, image_size=(256, 256), preserve_aspect_ratio=True):
   img = tf.image.resize(img, image_size, preserve_aspect_ratio=True)
   return img
 
-def apply_model()
+def apply_model():
 
     content_image_url = 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Golden_Gate_Bridge_from_Battery_Spencer.jpg/640px-Golden_Gate_Bridge_from_Battery_Spencer.jpg'  # @param {type:"string"}
     style_image_url = 'https://upload.wikimedia.org/wikipedia/commons/0/0a/The_Great_Wave_off_Kanagawa.jpg'  # @param {type:"string"}
