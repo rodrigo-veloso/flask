@@ -1,7 +1,7 @@
 import requests
 import json
 
-url = 'http://localhost:5000/invocations'
+url = 'https://flask-test-10.herokuapp.com/invocations'
 
 data = {
         'Pclass':[3,3,3],
