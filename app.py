@@ -4,6 +4,7 @@ import pandas as pd
 from joblib import load
 import json
 import logging
+import os
 
 logging.getLogger().setLevel(logging.INFO)
 
@@ -38,4 +39,4 @@ def health_check():
 
 
 if __name__ == "__main__":
-    app.run(host='0.0.0.0')
+    app.run(host='0.0.0.0', port=port)
