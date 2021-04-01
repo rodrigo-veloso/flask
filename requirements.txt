@@ -4,3 +4,4 @@ Flask
 joblib
 mlflow
 scikit-learn
+interpret
